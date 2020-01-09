@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:ssr" # the command you run to build this file
-  functions = "lambda"
+  functions = "functions"
   publish = "dist/browser" # CLI builds to this folder, Netlify should serve all these files statically
 
 [[redirects]]
