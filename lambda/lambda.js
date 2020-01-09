@@ -1,5 +1,5 @@
 const awsServerlessExpress = require('aws-serverless-express');
-const server = require('./dist/server');
+const server = require('../dist/server');
 const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
 
 server.app.use(awsServerlessExpressMiddleware.eventContext());
