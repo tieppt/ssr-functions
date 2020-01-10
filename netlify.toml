@@ -1,6 +1,6 @@
 [build]
   command = "npm run build:fns" # the command you run to build this file
-  functions = "dist"
+  functions = "dist/functions"
   publish = "dist/browser" # CLI builds to this folder, Netlify should serve all these files statically
 
 [[redirects]]
