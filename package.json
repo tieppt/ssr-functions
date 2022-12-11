@@ -31,7 +31,7 @@
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
     "aws-serverless-express": "^3.3.6",
     "cors": "^2.8.5",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
